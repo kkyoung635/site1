@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <head>
+            <meta charset="UTF-8" />
+            <title>Document</title>
+            <link rel="stylesheet" href="css/reset.css" />
+            <link rel="stylesheet" href="css/common.css" />
+            <link rel="stylesheet" href="css/sublayout.css" />
+            <link rel="stylesheet" href="css/content.css" />
+            <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+        </head>
+        <p id="skipNav" class="blind"><a href="#content">본문 바로가기</a></p>
+        <div id="wrap">
+            <header id="header">
+                <div class="inner">
+                    <h1>
+                        <a href="index.html"><img src="images/common/logo.svg" alt="logo" /></a>
+                    </h1>
+                    <nav class="nav">
+                        <ul class="gnb">
+                            <li><a href="sub1.html">Texture</a></li>
+                            <li><a href="sub2.html">Exhibition</a></li>
+                            <li><a href="sub3.html">MainMenu3</a></li>
+                            <li><a href="sub4.html">MainMenu4</a></li>
+                            <li><a href="sub5.html">MainMenu5</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main id="container" class="page sub1">
+                <div class="content">
+                    <!-- <div class="inner"> -->
+                    <div class="left">
+                        <article>
+                            <ul class="listimg">
+                                <li><img src="images/content/listimg0.png" alt="" /></li>
+                            </ul>
+                            <strong>아티스트 네임</strong>
+                            <span>텍스쳐 설명</span>
+                        </article>
+                        <p class="btn-wrap">
+                            <button class="prev"><i class="bx bx-chevron-left"></i></button>
+                            <button class="next"><i class="bx bx-chevron-right"></i></button>
+                        </p>
+                        <span class="current">현재번호</span>
+                        <span class="total">토탈</span>
+                    </div>
+                    <div class="right"><img src="" alt="" /></div>
+                    <!-- </div> -->
+                </div>
+            </main>
+
+            <footer id="footer">
+                <div class="inner">
+                    <p class="copy">Copyright © KangYungHyun. All Rights Reserved.</p>
+                </div>
+            </footer>
+        </div>
+        <script>
+            'use strict';
+            let artist = [
+                'Pawel Czerwinski',
+                'Evie S.',
+                'Noita Digital',
+                'Tina Dawson',
+                'Henrik Dønnestad',
+                'Sigmund',
+                'sydney Rae',
+                'Pawel Czerwinski',
+                'Kobby Mendez',
+            ];
+            let desc = [
+                'Colored lights in defocus - 초점이 흐려진 컬러 조명',
+                'old photo film - 오래된 사진 필름',
+                'damaged bonnet - 손상된 보닛',
+                'oil painting of waves - 파도를 담은 유화',
+                'Dust Overlay - 흩뿌려진 더스티 텍스쳐',
+                'black paint roller - 흑색의 페인트 롤러',
+                'Silk made from dots - 점으로 탄생한 실크',
+                'texture of old wall - 오래된 벽의 질감',
+                'oil paint texture - 유화 물감 텍스쳐',
+            ];
+            let li = document.querySelectorAll('.sub1 .left .listimg li');
+            let pic = document.querySelector('.sub1 .left .listimg li img');
+            let current = document.querySelector('.sub1 .left .current');
+            let total = document.querySelector('.sub1 .left .total');
+            let prev = document.querySelector('.sub1 .left .btn-wrap .prev');
+            let next = document.querySelector('.sub1 .left .btn-wrap .next');
+            let bigPic = document.querySelector('.sub1 .right img');
+            let bgimg = document.querySelector('.sub1 .right');
+            let art2 = document.querySelector('.sub1 .left strong');
+            let desc2 = document.querySelector('.sub1 .left span');
+            let cnt = 0,
+                imgUrl,
+                bigmigUrl,
+                timer = null,
+                interval = 3000;
+
+            current.textContent = `${cnt + 1} /`;
+            total.textContent = artist.length;
+            bgimg.style.backgroundImage = `url("images/content/bigListimg0.png")`;
+            art2.textContent = artist[cnt];
+            desc2.textContent = desc[cnt];
+
+            timer = setInterval(make, interval);
+            function make() {
+                cnt++;
+                if (cnt > artist.length - 1) {
+                    cnt = 0;
+                }
+                imgUrl = `images/content/listimg${cnt}.png`;
+                bigmigUrl = `url("images/content/bigListimg${cnt}.png")`;
+                current.textContent = `${cnt + 1} /`;
+                pic.setAttribute('src', imgUrl);
+                bgimg.style.backgroundImage = bigmigUrl;
+                art2.textContent = artist[cnt];
+                desc2.textContent = desc[cnt];
+            }
+
+            prev.addEventListener('click', () => {
+                cnt--;
+                if (cnt < 0) {
+                    cnt = artist.length - 1;
+                }
+                imgUrl = `images/content/listimg${cnt}.png`;
+                bigmigUrl = `url("images/content/bigListimg${cnt}.png")`;
+                current.textContent = `${cnt + 1} /`;
+                pic.setAttribute('src', imgUrl);
+                bgimg.style.backgroundImage = bigmigUrl;
+                art2.textContent = artist[cnt];
+                desc2.textContent = desc[cnt];
+                clearInterval(timer);
+                timer = setInterval(make, interval);
+            });
+            next.addEventListener('click', () => {
+                cnt++;
+                if (cnt > artist.length - 1) {
+                    cnt = 0;
+                }
+                imgUrl = `images/content/listimg${cnt}.png`;
+                bigmigUrl = `url("images/content/bigListimg${cnt}.png")`;
+                current.textContent = `${cnt + 1} /`;
+                pic.setAttribute('src', imgUrl);
+                bgimg.style.backgroundImage = bigmigUrl;
+                art2.textContent = artist[cnt];
+                desc2.textContent = desc[cnt];
+                clearInterval(timer);
+                timer = setInterval(make, interval);
+            });
+        </script>
+        <script src="js/test.js"></script>
+    </body>
+</html>

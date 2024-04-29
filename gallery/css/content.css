@@ -1,0 +1,380 @@
+.sub1 {
+    background: #000;
+}
+.sub1 .content {
+    display: flex;
+}
+.sub1 .inner {
+}
+.sub1 .left {
+    width: 50%;
+    margin: auto;
+}
+.sub1 .left article {
+    width: 400px;
+    height: 550px;
+    /* border: 1px solid #aaa; */
+    padding: 20px 20px 50px 20px;
+    background: #1c1c1c;
+    margin: auto;
+    position: relative;
+}
+
+.sub1 .left article .listimg {
+    display: block;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.sub1 .left article .listimg li {
+}
+.sub1 .left article .listimg li img {
+}
+.sub1 .left article strong {
+    font-size: 12px;
+    color: #777;
+}
+.sub1 .left em i {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 40px;
+    position: absolute;
+    right: 40px;
+    bottom: 220px;
+}
+.sub1 .left em i:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.sub1 .left article span:nth-of-type(1) {
+    font-size: 24px;
+    display: block;
+    font-weight: 500;
+    color: #fff;
+    word-break: keep-all;
+}
+.sub1 .left .numbering {
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    color: #777;
+}
+
+.sub1 .right {
+    width: 50%;
+    height: 850px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.sub2 {
+    background: #000;
+}
+.sub2 .inner {
+}
+.sub2 article {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.sub2 article ul {
+    width: 50%;
+    margin: auto;
+}
+.sub2 article ul li {
+    border-bottom: 1px solid #505050;
+    padding: 30px 15px;
+    color: #fff;
+}
+.sub2 article ul li.on {
+    border-bottom: 2px solid rgb(38, 111, 111);
+    color: rgb(38, 111, 111);
+}
+.sub2 article ul li.on strong {
+}
+.sub2 article ul li strong {
+    font-size: 24px;
+}
+.sub2 article ul li p {
+    color: #505050;
+}
+.sub2 article em {
+    display: block;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.sub3 {
+    background: #000;
+}
+.sub3 .inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.sub3 .left {
+    width: 70%;
+}
+.sub3 .left p {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.sub3 .left em {
+    display: block;
+    overflow: hidden;
+    border: 1px solid #000;
+}
+.sub3 .left em img {
+    width: 100%;
+}
+.sub3 .right {
+    width: 50%;
+    margin: auto;
+}
+.sub3 .right span:first-child {
+    color: #fff;
+}
+.sub3 .right span {
+    display: inline-block;
+    font-size: 24px;
+    color: rgb(38, 111, 111);
+    margin-bottom: 10px;
+}
+.sub3 .right ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+}
+.sub3 .right ul li {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+    overflow: hidden;
+    width: 150px;
+    height: 100px;
+    opacity: 0.2;
+}
+.sub3 .right ul li.on {
+    outline: 3px solid rgb(38, 111, 111);
+    opacity: 1;
+}
+.sub3 .right ul li img {
+    width: 200px;
+}
+
+.sub4 {
+}
+.sub4 .inner {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+.sub4 .warp-news {
+}
+.sub4 .left {
+}
+.sub4 .left p {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.sub4 em {
+    display: block;
+    overflow: hidden;
+}
+.sub4 .left em img {
+    width: 950px;
+    height: 510px;
+}
+.sub4 .right {
+    width: 100%;
+}
+.sub4 .right ul {
+    border-top: 2px solid #000;
+}
+.sub4 .right ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-bottom: 1px solid #dcdcdc;
+}
+.sub4 .right ul li.on {
+    border-bottom: 1px solid rgb(38, 111, 111);
+}
+.sub4 .right ul li .txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sub4 .right ul li .txt .news-title {
+    font-size: 24px;
+    display: block;
+    width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.sub4 .right ul li.on .txt .news-title {
+    color: rgb(38, 111, 111);
+    font-weight: 500;
+}
+.sub4 .right ul li .txt span {
+    color: #acacac;
+}
+.sub4 .right ul li em {
+    margin-left: 20px;
+}
+.sub4 .right ul li em img {
+    width: 120px;
+    height: 70px;
+    transition: 0.5s ease-in-out;
+}
+.sub4 .right ul li em img:hover {
+    scale: 1.2;
+}
+
+.sub5 {
+    background: #000;
+}
+.sub5 .inner {
+    position: relative;
+}
+.sub5 h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.sub5 .album {
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.sub5 .album ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: auto;
+    /* width: 2000px; */
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 100px;
+    transform: translateX(0);
+}
+.sub5 .album ul.ani {
+    transition: 0.4s;
+}
+.sub5 .album li:nth-child(8n + 1) {
+    transform: translateY(120px);
+}
+.sub5 .album li:nth-child(8n + 2) {
+    transform: translateY(20px);
+}
+.sub5 .album li:nth-child(8n + 3) {
+    transform: translateY(100px);
+}
+.sub5 .album li:nth-child(8n + 4) {
+    transform: translateY(60px);
+}
+.sub5 .album li:nth-child(8n + 5) {
+    transform: translateY(20px);
+}
+.sub5 .album li:nth-child(8n + 6) {
+    transform: translateY(120px);
+}
+.sub5 .album li:nth-child(8n + 7) {
+    transform: translateY(50px);
+}
+.sub5 .album li:nth-child(8n + 8) {
+    transform: translateY(20px);
+}
+.sub5 .album li {
+    color: #fff;
+    float: left;
+    position: relative;
+    transform: translateY(0px);
+    transition: 0.4s;
+}
+.sub5 .album li span {
+    display: block;
+    width: 100px;
+    height: 60px;
+    background: rgb(38, 111, 111);
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: -30px;
+}
+.sub5 .album li em {
+    display: block;
+    width: 250px;
+    height: 300px;
+    background: #d8d8d8;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.sub5 .album li em img {
+    width: 100%;
+}
+.sub5 .album li .txt {
+    padding-left: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.sub5 .album li strong {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+}
+.sub5 .album li p {
+    margin-top: 20px;
+}
+.sub5 .album li b {
+}
+.sub5 .paging {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 40px;
+}
+.sub5 .paging li {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.sub5 .paging li.on {
+    background: transparent;
+    outline: 3px solid #fff;
+}
+.sub5 .paging li:last-child {
+    margin-right: 0;
+}
+.sub5 .btn button {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    background: transparent;
+    color: #fff;
+    border: none;
+}
+.sub5 .btn .prev {
+    left: 80px;
+}
+.sub5 .btn .next {
+    right: 80px;
+}

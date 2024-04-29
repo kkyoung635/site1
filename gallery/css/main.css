@@ -1,0 +1,52 @@
+.main .inner {
+    display: flex;
+    padding: 150px 0;
+}
+
+.main .inner .left ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.main .inner ul li {
+    width: 140px;
+    height: 120px;
+    border: 1px solid #ccc;
+}
+.main .inner ul li img {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    cursor: pointer;
+}
+.main .inner .left span {
+    font-size: 20px;
+}
+.main .inner .left .num {
+}
+.main .inner .left .sum {
+    font-size: 14px;
+}
+.main .inner .right {
+    width: 50%;
+}
+.main .inner .right img {
+    width: 620px;
+    height: 518px;
+    border: 1px solid #ccc;
+}
+.main .inner .right p {
+    margin-top: 20px;
+    position: relative;
+    padding-top: 50px;
+    font-size: 24px;
+    border-top: 1px solid #000;
+}
+.main .inner .right span {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #aaa;
+}

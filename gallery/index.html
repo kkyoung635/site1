@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <head>
+            <meta charset="UTF-8" />
+            <title>Document</title>
+            <link rel="stylesheet" href="css/reset.css" />
+            <link rel="stylesheet" href="css/common.css" />
+            <link rel="stylesheet" href="css/main.css" />
+        </head>
+        <p id="skipNav" class="blind"><a href="#content">본문 바로가기</a></p>
+        <div id="wrap">
+            <header id="header">
+                <div class="inner">
+                    <h1>
+                        <a href="index.html"><img src="images/common/logo.svg" alt="logo" /></a>
+                    </h1>
+                    <nav class="nav">
+                        <ul class="gnb">
+                            <li><a href="sub1.html">Texture</a></li>
+                            <li><a href="sub2.html">Exhibition</a></li>
+                            <li><a href="sub3.html">Oil paint</a></li>
+                            <li><a href="sub4.html">Communication</a></li>
+                            <li><a href="sub5.html">festival</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main id="container" class="main">
+                <div class="content">
+                    <div class="inner">
+                        <article class="left">
+                            <ul>
+                                <li><img src="images/main/img0.png" alt="2번 이미지" title="2번 이미지 입니다." /></li>
+                                <li><img src="images/main/img1.png" alt="3번 이미지" title="3번 이미지 입니다." /></li>
+                                <li><img src="images/main/img2.png" alt="3번 이미지" title="3번 이미지 입니다." /></li>
+                                <li><img src="images/main/img3.png" alt="4번 이미지" title="4번 이미지 입니다." /></li>
+                                <li><img src="images/main/img4.png" alt="5번 이미지" title="5번 이미지 입니다." /></li>
+                                <li><img src="images/main/img5.png" alt="6번 이미지" title="6번 이미지 입니다." /></li>
+                                <li><img src="images/main/img6.png" alt="7번 이미지" title="7번 이미지 입니다." /></li>
+                                <li><img src="images/main/img7.png" alt="8번 이미지" title="8번 이미지 입니다." /></li>
+                            </ul>
+                            <span class="num">현재번호</span>
+                            <span class="sum">총갯수</span>
+                        </article>
+                        <article class="right">
+                            <img src="images/main/mainImg0.png" alt="" />
+                            <p class="txt">1<br /><span>photographer</span> Spenser Sembrat</p>
+                        </article>
+                    </div>
+                </div>
+            </main>
+
+            <footer id="footer">
+                <div class="inner">
+                    <p class="copy">Copyright © KangYungHyun. All Rights Reserved.</p>
+                </div>
+            </footer>
+        </div>
+        <script>
+            'use strict';
+            let num = document.querySelector('.main .left .num');
+            let sum = document.querySelector('.main .left .sum');
+            let li = document.querySelectorAll('.main .left ul li');
+            let btn = document.querySelectorAll('.main .left ul li img');
+            let img = document.querySelectorAll('.main .right img');
+            let imgclick = document.querySelector('.main .right img');
+            let txt = document.querySelector('.main .right p');
+            let imgarr = ['Spenser Sembrat', 'Marcell Rubies', 'Tamás Tokos', 'Red Zeppelin', 'Stephanie Berbec', 'NEOM', 'Wesley Tingey', 'Pawel Czerwinski'];
+            li = Array.from(li);
+
+            num.innerHTML = `작품 번호 : no.1 &nbsp&nbsp`;
+            sum.innerHTML = ` |&nbsp&nbsp 참여작: ${li.length}sku`;
+
+            btn.forEach((item, idx) => {
+                btn[idx].addEventListener('click', () => {
+                    imgclick.setAttribute('src', `images/main/mainImg${idx}.png`);
+                    num.innerHTML = `작품 번호 : no.${idx + 1} &nbsp&nbsp`;
+                    txt.innerHTML = `${idx + 1} <br><span>photographer</span> ${imgarr[idx]} `;
+                });
+            });
+        </script>
+        <script src="js/test.js"></script>
+    </body>
+
+    <!-- 
+        큰 이미지 아래 텍스트 -> 배열로 img 순서 0/
+
+     -->
+</html>

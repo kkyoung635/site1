@@ -1,0 +1,33 @@
+.page {
+}
+.page .inner {
+    padding: 150px 0 200px 0;
+}
+.btn-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-wrap button {
+    border: none;
+    font-size: 100px;
+    background: transparent;
+    cursor: pointer;
+    color: #1c1c1c;
+    transition: 0.3s ease-in-out;
+}
+.btn-wrap button:hover {
+    color: #5c5c5c;
+}
+.btn-wrap .prev {
+    position: absolute;
+    left: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btn-wrap .next {
+    position: absolute;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
