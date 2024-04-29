@@ -1,0 +1,823 @@
+/* 서브 각페이지 */
+/* bath */
+
+.bath {
+}
+.bath .con1 {
+}
+
+.bath .con2 {
+    background-image: url(../images/content/bath1/about_bg.png);
+}
+.bath .con3 {
+    text-align: center;
+}
+.bath .con3 .inner {
+    padding-bottom: 40px;
+}
+.bath .con3 p:nth-child(1) {
+    font-size: 14px;
+    font-weight: 300;
+}
+.bath .con3 strong:nth-child(2) {
+    font-size: 36px;
+    font-weight: 500;
+}
+.bath .con3 strong:nth-of-type(1) span {
+    font-size: 20px;
+    color: #787878;
+    vertical-align: text-top;
+}
+.bath .con3 div {
+    position: relative;
+    margin-top: 50px;
+}
+.bath .con3 div span {
+}
+.bath .con3 div span img {
+}
+.bath .con3 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 126px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.bath .con3 ul li {
+    position: relative;
+}
+.bath .con3 ul li::after {
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: rgba(32, 157, 203, 0.2);
+    display: block;
+    position: absolute;
+    right: -63px;
+    top: 0;
+}
+.bath .con3 ul li:last-child:after {
+    content: none;
+}
+
+.bath .con3 ul li strong {
+    font-size: 136px;
+    font-weight: 300;
+}
+.bath .con3 ul li em {
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    width: 72px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 35px;
+    background: var(--main-color);
+    margin-bottom: 10px;
+}
+.bath .con3 ul li p {
+    font-size: 22px;
+    white-space: nowrap;
+}
+.bath .con4 {
+    position: relative;
+}
+.bath .con4::before {
+    content: '';
+    width: 1px;
+    height: 50px;
+    display: block;
+    background: #aaa;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+.bath .con4::after {
+    content: 'DAELIMBATH';
+    display: block;
+    font-size: 260px;
+    color: #f3f3f3;
+    position: absolute;
+    line-height: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -10;
+    letter-spacing: -10px;
+}
+.bath .con4 .inner {
+}
+.bath .con4 span {
+    display: block;
+    margin: auto;
+    width: 454px;
+    height: 552px;
+    position: relative;
+}
+.bath .con4 span img {
+    width: 100%;
+}
+.bath .con4 .ex-txt {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+}
+.bath .con4 .ex-txt p {
+    color: #000;
+    font-size: 30px;
+    font-weight: 500;
+}
+.bath .con5 {
+    background-image: url(../images/content/bath1/about_bg03.png);
+}
+.bath .con5 .img-on-txt {
+}
+.bath .con5 .img-on-txt span {
+    color: rgba(255, 255, 255, 0.7);
+}
+.bath .con5 .img-on-txt h3 {
+    font-size: 36px;
+    margin-top: 5px;
+}
+.bath .con5 .img-on-txt p {
+    font-size: 20px;
+}
+.bath .con6 {
+}
+.bath .con6 .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bath .con6 .left {
+}
+.bath .con6 .left span {
+    color: rgba(0, 0, 0, 0.7);
+}
+.bath .con6 .left p {
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.bath .con6 .left ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 13px;
+}
+.bath .con6 .left ul li {
+    position: relative;
+}
+.bath .con6 .left ul li img {
+}
+.bath .con6 .left ul li b {
+    display: block;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    white-space: nowrap;
+    font-size: 15px;
+}
+.bath .con6 .right {
+}
+.bath .con6 .right span {
+    display: block;
+}
+.bath .con6 .right span img {
+    width: 100%;
+}
+.bath .con7 .inner {
+    position: relative;
+}
+.bath .con7 .inner::before,
+.bath .con7 .inner::after {
+    letter-spacing: -10px;
+}
+.bath .con7 .inner::before {
+    content: 'BATH';
+    display: block;
+    font-size: 260px;
+    color: #f3f3f3;
+    position: absolute;
+    line-height: 1;
+    left: 0;
+    top: 250px;
+    z-index: -10;
+}
+.bath .con7 .inner::after {
+    content: 'ROOM';
+    display: block;
+    font-size: 260px;
+    color: #f3f3f3;
+    position: absolute;
+    line-height: 1;
+    right: 0;
+    bottom: -150px;
+    z-index: -10;
+}
+.bath .con7 .inner {
+}
+.bath .con7 p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 70px;
+}
+.bath .con7 .flo-img {
+    height: 800px;
+}
+.bath .con7 .flo-img .flo-images {
+    position: relative;
+}
+.bath .con7 .flo-img .flo-images li img {
+    position: absolute;
+}
+.bath .con7 .flo-img .flo-images li:nth-child(1) img {
+    left: 50px;
+    top: 280px;
+}
+.bath .con7 .flo-img .flo-images li:nth-child(2) img {
+    left: 190px;
+    top: 400px;
+    z-index: 50;
+}
+.bath .con7 .flo-img .flo-images li:nth-child(3) img {
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+}
+.bath .con7 .flo-img .flo-images li:nth-child(4) img {
+    right: 315px;
+    top: 285px;
+    z-index: 50;
+}
+.bath .con7 .flo-img .flo-images li:nth-child(5) img {
+    right: 50px;
+    top: 70px;
+}
+.remo {
+}
+.remo .inner {
+}
+.remo .con2 {
+}
+.remo .list {
+    text-align: center;
+}
+.remo .list h3 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.remo .list span {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.remo .list ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.remo .list ul li {
+    position: relative;
+    flex: 1;
+}
+.remo .list ul li span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.remo .list ul li:hover span {
+    opacity: 1;
+}
+.remo .list ul li img {
+    width: 100%;
+}
+.remo .list p.more::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #000;
+    display: block;
+}
+.remo .list p.more {
+    width: 165px;
+    margin: auto;
+    margin-top: 50px;
+    font-weight: 500;
+    text-align-last: left;
+    position: relative;
+}
+.remo .list p.more a {
+}
+
+.remo .list p.more a::after {
+    content: '\e913';
+    display: block;
+    font-family: xeicon !important;
+    position: absolute;
+    font-weight: 700;
+    right: 0;
+    top: 0;
+}
+.remo .con3 {
+}
+.care {
+}
+.care .inner {
+}
+.care .care-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.care .care-title h3 {
+    font-size: 62px;
+    margin-bottom: 10px;
+}
+.care .care-title p {
+    font-size: 22px;
+}
+.care .con2 {
+    height: 750px;
+    position: relative;
+    background-image: url(../images/content/care/care_img.png);
+}
+.care .con3 {
+}
+.care .con3 .inner {
+    display: flex;
+    justify-content: space-between;
+}
+.care .con3 .inner .right ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.care .con3 .inner .right ul li {
+    position: relative;
+    color: #fff;
+}
+.care .con3 .inner .right ul li img {
+}
+.care .con3 .inner .right ul li span {
+    position: absolute;
+    left: 40px;
+    bottom: 60px;
+    font-size: 22px;
+}
+.care .con4 {
+}
+.care .con4 ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+.care .con4 ul li {
+    color: #fff;
+    position: relative;
+}
+.care .con4 ul li img {
+}
+.care .con4 ul li .txt {
+    position: absolute;
+    left: 40px;
+    bottom: 80px;
+}
+.care .con4 ul li .txt p {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.care .con4 ul li .txt span {
+    font-size: 22px;
+}
+.care .con5 {
+}
+.care .con5 .inner {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: start;
+}
+.care .con5 .inner .left span {
+}
+.care .con5 .inner .left span {
+    display: block;
+}
+.care .con5 .inner .left span img {
+    width: 100%;
+}
+.care .con5 .inner .right {
+}
+.care .con5 .inner .right ul {
+    width: 630px;
+    border-top: 1px solid #000;
+}
+.care .con5 .inner .right ul li {
+    padding: 60px 0;
+    font-size: 22px;
+    border-bottom: 1px solid #ddd;
+}
+.care .con5 .care-link {
+    margin-top: 30px;
+}
+.care .con6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.care .con6 a {
+    color: #fff;
+    height: 320px;
+    line-height: 320px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    width: 50%;
+}
+.care .con6 a:first-child {
+    background-image: url(../images/content/care/care_img07.png);
+}
+.care .con6 a:last-child {
+    background-image: url(../images/content/care/care_img08.png);
+}
+.care .con6 a i {
+}
+.prd {
+}
+.prd .con1 {
+    width: 100%;
+    background-image: url(../images/content/prd/best_bg.png);
+}
+.prd .con1::after {
+    content: none;
+}
+.prd .con1 .inner {
+    height: 920px;
+}
+.prd .sec-title {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.prd .sec-title .min-logo {
+    display: flex;
+    justify-content: center;
+}
+.prd .sec-title h2 {
+    margin-bottom: 35px;
+}
+.prd .area {
+    display: flex;
+}
+.prd .area .left span {
+    display: block;
+    position: relative;
+}
+.prd .area .left .sec-title {
+    position: absolute;
+    top: 50%;
+}
+.prd .area .thumnail {
+    gap: 15px;
+    margin-left: 100px;
+}
+.prd .con-box:nth-last-of-type(-n + 2) .thumnail li a {
+    display: block;
+    width: 375px;
+    height: 273px;
+}
+.exh {
+}
+.exh .inner {
+}
+.exh .con1::after {
+    content: 'Store';
+}
+.exh .con2 .inner {
+    margin-top: 20px;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    height: 210px;
+}
+.exh .con2 #addr1::after,
+.exh .con2 #addr2::after {
+    content: '\e936';
+    font-family: xeicon !important;
+    float: right;
+}
+.exh .con2 #addr1,
+.exh .con2 #addr2 {
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #000;
+    line-height: 40px;
+    text-align: left;
+    text-indent: 5px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 190px;
+}
+.exh .con2 .inner div ul {
+    position: absolute;
+    width: 250px;
+    background: #fff;
+    border: 1px solid #dcdcdc;
+    z-index: 10;
+}
+.exh .con2 .inner div ul li {
+    line-height: 40px;
+    cursor: pointer;
+    padding: 0 16px;
+}
+.exh .con2 .inner div ul li:hover {
+    background: #fbfbfb;
+}
+
+.exh .con2 .inner div ul li button {
+    border: none;
+    background: transparent;
+}
+.exh .con2 .search3 input[type='text'] {
+    line-height: 40px;
+    width: 350px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #dcdcdc;
+}
+.exh .con2 .search3 button {
+    border: none;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 50px;
+    line-height: 40px;
+    padding: 10px 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.exh .con2 .search3 button span {
+    font-size: 12px;
+}
+.exh .con2 .search3 button i {
+    margin-left: 5px;
+    vertical-align: middle;
+    font-size: 18px;
+}
+.exh .con3 {
+}
+.exh .con3 .inner {
+    padding-top: 10px;
+    display: flex;
+    gap: 75px;
+}
+.exh .con3 .map {
+    width: 50%;
+    background: #000;
+}
+.exh .con3 .map-list {
+    width: 50%;
+    padding: 20px;
+}
+.exh .con3 .map-list .loca li.on {
+    border: 1px solid var(--main-color);
+}
+.exh .con3 .map-list .loca > li {
+    padding: 35px 45px;
+    margin-bottom: 10px;
+}
+.exh .con3 .map-list .loca > li:not(:first-child) {
+    border: 1px solid #ddd;
+}
+.exh .con3 .map-list .loca li .title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.exh .con3 .map-list .loca li ul {
+    margin-top: 35px;
+}
+.exh .con3 .map-list .loca li ul li {
+    display: flex;
+}
+.exh .con3 .map-list .loca li ul li span {
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    width: 130px;
+}
+.exh .con3 .map-list .loca li ul li p {
+}
+.exh .con3 .paging {
+    text-align: center;
+    margin-top: 80px;
+}
+.exh .con3 .paging a {
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+.exh .con3 .paging a i {
+    font-weight: 500;
+    vertical-align: middle;
+    font-size: 24px;
+}
+
+.exh .con3 .paging a:last-child {
+    margin-right: 0;
+}
+.exh .con3 .paging a.on {
+    color: var(--main-color);
+}
+
+.refer .inner {
+}
+.refer .con1::after {
+    content: 'download';
+}
+
+.as {
+}
+.as .inner {
+    margin-top: 84px;
+    margin-bottom: 360px;
+}
+.as h2 {
+    font-size: 46px;
+    text-align: center;
+    margin: 15px;
+}
+.as p {
+    text-align: center;
+    margin-bottom: 48px;
+}
+.as form {
+}
+.as form table {
+    width: 870px;
+    margin: auto;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #ccc;
+    font-weight: var(--font-wight-500);
+    margin-bottom: 70px;
+}
+.as form table .title {
+    width: 130px;
+}
+.as form table .text {
+    width: auto;
+}
+.as form table tr {
+}
+.as form table tr:nth-child(1) {
+}
+.as form table tr td {
+    vertical-align: top;
+    padding-bottom: 12px;
+}
+.as form table tr:nth-child(1) td {
+    padding-top: 20px;
+}
+.as form table tr td:nth-child(1) {
+    font-size: 14px;
+    text-indent: 10px;
+    position: relative;
+    line-height: 65px;
+}
+.as form table tr td:nth-child(1)::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: var(--main-color);
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.as form table tr td input[type='text'],
+.as form table tr td input[type='button'],
+.as form table tr td select {
+    height: 65px;
+    padding: 0 20px;
+    border: none;
+    background: #f7f7f7;
+    border-radius: 65px;
+}
+.as form table tr input[type='radio'] {
+}
+.as form table textarea {
+    background: #f7f7f7;
+    border: none;
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.as form table tr td select {
+    -o-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+}
+.as form .btn {
+    cursor: pointer;
+}
+.as form .btn input[type='reset'],
+.as form .btn input[type='submit'] {
+    width: 245px;
+    height: 65px;
+    border-radius: 65px;
+    border: none;
+    font-weight: var(--font-wight-700);
+}
+.as form .btn input[type='reset'] {
+    color: var(--main-color);
+    background: #fff;
+    border: 2px solid var(--main-color);
+}
+.as form .btn input[type='submit'] {
+    background: var(--main-color);
+    color: #fff;
+}
+.notice {
+}
+.notice .inner {
+}
+.notice .con1::after {
+    content: 'notice';
+}
+.notice .con2 {
+}
+.notice .con2 table {
+    font-size: 18px;
+    border-top: 1px solid #000;
+}
+.notice .con2 table .no {
+    width: 215px;
+}
+.notice .con2 table .title {
+    width: 1105px;
+}
+.notice .con2 table .date {
+    width: auto;
+}
+.notice .con2 tr td:not(:nth-of-type(2)) {
+    text-align: center;
+}
+.notice .con2 table tr th,
+.notice .con2 table tr td {
+    height: 100px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+}
+.notice .con2 table tr td:nth-of-type(2) {
+    padding-left: 110px;
+}
+
+.notice .con2 .paging {
+    text-align: center;
+}
+.notice .con2 .paging a.on {
+    color: var(--main-color);
+}
+.notice .con2 .paging a {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.notice .con2 table tr:hover {
+    background: #fbfbfb;
+}
+.notice .con2 .paging a:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,28 @@
+@keyframes mainBannerTxt {
+    0% {
+        opacity: 0;
+        top: 80%;
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        opacity: 1;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes subBannerTxt {
+    0% {
+        opacity: 0;
+        top: 150%;
+        transform: translate(-50%, -50%);
+    }
+    60% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

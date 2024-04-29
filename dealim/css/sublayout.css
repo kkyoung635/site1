@@ -1,0 +1,144 @@
+/* 서브페이지 공통 */
+.page {
+    letter-spacing: -0.8px;
+}
+.pt80 {
+    padding-top: 80px;
+}
+.pt100 {
+    padding-top: 100px;
+}
+.pt160 {
+    padding-top: 160px;
+}
+.pb100 {
+    padding-bottom: 100px;
+}
+.pb200 {
+    padding-bottom: 200px;
+}
+.pb240 {
+    padding-bottom: 240px;
+}
+.page .inner {
+    width: 1560px;
+    margin: auto;
+    /* padding-top: 100px; */
+}
+.w110 {
+    width: 110px;
+}
+.w170 {
+    width: 170px;
+}
+.w235 {
+    width: 235px;
+}
+.w245 {
+    width: 245px;
+}
+.w360 {
+    width: 360px;
+}
+.w756 {
+    width: 756px;
+}
+.bg-set {
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bath .bg-ani {
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+.img-on-txt {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: subBannerTxt 1.2s ease-out 1 forwards;
+}
+.img-on-txt h3 {
+    font-size: 55px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.img-on-txt p {
+    font-size: 22px;
+    line-height: 1.8;
+}
+.img-on-txt2 {
+    color: #000;
+}
+.img-on-txt2 h3 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.img-on-txt2 p {
+    font-size: 22px;
+    line-height: 1.8;
+}
+.care-link {
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+}
+.care-link i {
+    margin-left: 30px;
+    vertical-align: middle;
+}
+.con-box {
+    width: 1920px;
+    margin: auto;
+}
+.con1 {
+    position: relative;
+}
+.con1::after {
+    content: 'BRAND';
+    display: block;
+    font-size: 220px;
+    color: #f3f3f3;
+    position: absolute;
+    line-height: 1;
+    right: 0;
+    top: 210px;
+    text-transform: uppercase;
+}
+
+.page .sec-title {
+}
+.page .sec-title img {
+}
+.page .sec-title .min-logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    vertical-align: middle;
+    margin-bottom: 28px;
+}
+.page .sec-title .min-logo span::before {
+    content: '';
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #aaa;
+    vertical-align: middle;
+    margin: 0 16px;
+}
+.page .sec-title .min-logo span {
+    font-size: 14px;
+}
+.page .sec-title h2 {
+    font-size: 57px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+.page .sec-title p {
+    font-size: 22px;
+}
